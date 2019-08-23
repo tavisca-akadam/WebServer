@@ -1,4 +1,3 @@
-C:\Users\ankadam\source\repos\WebServerRefactor\WebServerRefactor\obj\Debug\netcoreapp2.2\WebServerRefactor.csprojResolveAssemblyReference.cache
 C:\Users\ankadam\source\repos\WebServerRefactor\WebServerRefactor\obj\Debug\netcoreapp2.2\WebServerRefactor.csproj.CoreCompileInputs.cache
 C:\Users\ankadam\source\repos\WebServerRefactor\WebServerRefactor\obj\Debug\netcoreapp2.2\WebServerRefactor.AssemblyInfoInputs.cache
 C:\Users\ankadam\source\repos\WebServerRefactor\WebServerRefactor\obj\Debug\netcoreapp2.2\WebServerRefactor.AssemblyInfo.cs
@@ -9,3 +8,4 @@ C:\Users\ankadam\source\repos\WebServerRefactor\WebServerRefactor\bin\Debug\netc
 C:\Users\ankadam\source\repos\WebServerRefactor\WebServerRefactor\bin\Debug\netcoreapp2.2\WebServerRefactor.pdb
 C:\Users\ankadam\source\repos\WebServerRefactor\WebServerRefactor\obj\Debug\netcoreapp2.2\WebServerRefactor.dll
 C:\Users\ankadam\source\repos\WebServerRefactor\WebServerRefactor\obj\Debug\netcoreapp2.2\WebServerRefactor.pdb
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerRefactor\obj\Debug\netcoreapp2.2\WebServerRefactor.csprojAssemblyReference.cache

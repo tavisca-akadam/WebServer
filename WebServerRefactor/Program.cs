@@ -55,11 +55,46 @@ namespace WebServerRefactor
         public static void TryParse(Socket conn)
         {
             byte[] receivedBuffer = new byte[1024];
-            int messageLength = conn.Receive(receivedBuffer, receivedBuffer.Length, 0);
-            string messageBuffer = Encoding.ASCII.GetString(receivedBuffer);
+            int requestLength = conn.Receive(receivedBuffer, receivedBuffer.Length, 0);
+            string request = Encoding.ASCII.GetString(receivedBuffer);
 
-            Console.WriteLine($"messageLength : {messageLength}, messageBuffer : {messageBuffer}");
+            Console.WriteLine($"messageLength : {requestLength}, messageBuffer : {request}");
 
+            if(request.Substring(0, 3) == "GET")
+            {
+                HttpRequest.ParseRequest(request);
+            }
+            else
+            {
+                Console.WriteLine("Only Get Method is Supported");
+                conn.Close();
+                return;
+            }
+
+        }
+    }
+
+    public class HttpRequest
+    {
+        public static void ParseRequest(string request)
+        {
+            int iStartPos = request.IndexOf("HTTP", 1);
+
+            string HttpVersion = request.Substring(iStartPos, 8);
+            Console.WriteLine($"HttpVersion : {HttpVersion}, iStartPos : {iStartPos}");
+
+            string sRequest = request.Substring(0, iStartPos - 1);
+            sRequest.Replace("\\", "/");
+            
+            if ((sRequest.IndexOf(".") < 1) && (!sRequest.EndsWith("/")))
+            {
+                sRequest = sRequest + "/";
+            }
+            Console.WriteLine($"sRequest : {sRequest}");
+            iStartPos = sRequest.LastIndexOf("/") + 1;
+            string requestedFile = sRequest.Substring(iStartPos);
+            string sDirName = sRequest.Substring(sRequest.IndexOf("/"), sRequest.LastIndexOf("/") - 3);
+            Console.WriteLine($"requestedFile : {requestedFile}, sDirName : {sDirName}");
         }
     }
 }
