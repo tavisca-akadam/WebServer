@@ -94,7 +94,26 @@ namespace WebServerRefactor
             iStartPos = sRequest.LastIndexOf("/") + 1;
             string requestedFile = sRequest.Substring(iStartPos);
             string sDirName = sRequest.Substring(sRequest.IndexOf("/"), sRequest.LastIndexOf("/") - 3);
-            Console.WriteLine($"requestedFile : {requestedFile}, sDirName : {sDirName}");
+            Console.WriteLine($"requestedFile : {requestedFile}, sDirName : {sDirName} ");
+        }
+    }
+
+    public interface IFileSystem
+    {
+        string GetLocalPath(string rootDir, string localDir);
+        string GetTheDefaultFileName(string localDirectory);
+    }
+
+    public class StaticFileSystem : IFileSystem
+    {
+        public string GetLocalPath(string rootDir, string localDir)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string GetTheDefaultFileName(string localDirectory)
+        {
+            throw new NotImplementedException();
         }
     }
 }
