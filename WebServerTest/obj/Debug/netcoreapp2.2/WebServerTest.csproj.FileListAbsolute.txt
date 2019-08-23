@@ -1,0 +1,16 @@
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\obj\Debug\netcoreapp2.2\WebServerTest.csprojResolveAssemblyReference.cache
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\obj\Debug\netcoreapp2.2\WebServerTest.csproj.CoreCompileInputs.cache
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\obj\Debug\netcoreapp2.2\WebServerTest.AssemblyInfoInputs.cache
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\obj\Debug\netcoreapp2.2\WebServerTest.AssemblyInfo.cs
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\WebServerTest.deps.json
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\WebServerTest.runtimeconfig.json
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\WebServerTest.runtimeconfig.dev.json
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\WebServerTest.dll
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\WebServerTest.pdb
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\WebServerRefactor.dll
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\bin\Debug\netcoreapp2.2\WebServerRefactor.pdb
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\obj\Debug\netcoreapp2.2\WebServerTest.dll
+C:\Users\ankadam\source\repos\WebServerRefactor\WebServerTest\obj\Debug\netcoreapp2.2\WebServerTest.pdb
