@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
@@ -17,13 +18,14 @@ namespace WebServerRefactor
     public class WebServer
     {
         private TcpListener _listener;
-        private int port = 5555;
+        private int _port = 5555;
+        private IPAddress _localAddr = IPAddress.Parse("127.0.0.1");
 
         public WebServer()
         {
             try
             {
-                _listener = new TcpListener(port);
+                _listener = new TcpListener(_localAddr, _port);
                 _listener.Start();
                 Console.WriteLine("Web Server Running Press CTRL + C to quit.....");
 
