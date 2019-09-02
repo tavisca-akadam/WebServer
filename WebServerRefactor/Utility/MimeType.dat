@@ -1,0 +1,5 @@
+﻿.html; text/html
+.htm; text/html
+.bmp; image/bmp
+.js; application/x-javascript
+.css; text/css
